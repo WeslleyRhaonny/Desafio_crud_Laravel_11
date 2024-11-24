@@ -1,0 +1,20 @@
+
+/* 
+.user-photo:hover {
+    outline: 2px solid var(--bs-primary);
+    outline-offset: 1pt;
+    box-shadow: 0 0 2px 3pt #00693850;
+    border-radius: .1rem;
+} */
+
+
+/* .user-photo-text {
+    user-select: none;
+    color: white;
+    background-color: var(--bs-primary);
+    bottom: 0; 
+    width: 100%; 
+    margin: 0; 
+    padding: 2pt; 
+
+} */

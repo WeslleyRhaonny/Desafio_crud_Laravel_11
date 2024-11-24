@@ -1,0 +1,65 @@
+version: "3"
+
+services:
+    # image project
+    app:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        restart: unless-stopped
+        working_dir: /var/www/
+        volumes:
+            - ./:/var/www
+        depends_on:
+            - redis
+        networks:
+            - laravel
+
+    # nginx
+    nginx:
+        image: nginx:alpine
+        restart: unless-stopped
+        ports:
+            - "8000:80"
+        volumes:
+            - ./:/var/www
+            - ./docker/nginx/:/etc/nginx/conf.d/
+        networks:
+            - laravel
+
+    # db mysql
+    db:
+        image: mysql:8.0
+        restart: unless-stopped
+        environment:
+            MYSQL_DATABASE: laravel
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_USER: user
+            MYSQL_PASSWORD: userpass
+        ports:
+            - "3301:3306"
+        networks:
+            - laravel
+
+    # PHPMyAdmin
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin:latest
+        restart: unless-stopped
+        ports:
+            - "8081:80"  # Acesse o phpMyAdmin no navegador via http://localhost:8081
+        environment:
+            PMA_HOST: "db"               # O serviço do banco de dados MySQL definido no compose
+            PMA_PORT: "3306"             # Porta do MySQL
+            MYSQL_ROOT_PASSWORD: "root"  # Senha do usuário root
+        networks:
+            - laravel
+
+    # redis
+    redis:
+        image: redis:latest
+        networks:
+            - laravel
+
+networks:
+    laravel:
+        driver: bridge

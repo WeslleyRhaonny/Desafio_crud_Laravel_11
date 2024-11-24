@@ -1,0 +1,178 @@
+/* Extra pequeño (xs) */
+@media only screen and (max-width: 575.98px) {
+    .overflow-xs-x-hidden {
+        overflow-x: hidden !important;
+    }
+    .overflow-xs-y-hidden {
+        overflow-y: hidden !important;
+    }
+
+    .overflow-xs-hidden {
+        overflow: hidden !important;
+    }
+
+    .overflow-xs-x-scroll {
+        overflow-x: scroll !important;
+    }
+    .overflow-xs-y-scroll {
+        overflow-y: scroll !important;
+    }
+
+    .overflow-xs-scroll {
+        overflow: scroll !important;
+    }
+
+    .overflow-xs-x-auto {
+        overflow-x: auto !important;
+    }
+    .overflow-xs-y-auto {
+        overflow-y: auto !important;
+    }
+
+    .overflow-xs-auto {
+        overflow: auto !important;
+    }
+
+    .overflow-xs-x-visible {
+        overflow-x: visible !important;
+    }
+    .overflow-xs-y-visible {
+        overflow-y: visible !important;
+    }
+
+    .overflow-xs-visible {
+        overflow: visible !important;
+    }
+}
+
+/* Pequeño (sm) */
+@media only screen and (max-width: 767.98px) {
+    .overflow-sm-x-hidden {
+        overflow-x: hidden !important;
+    }
+    .overflow-sm-y-hidden {
+        overflow-y: hidden !important;
+    }
+
+    .overflow-sm-hidden {
+        overflow-x: hidden !important;
+    }
+
+    .overflow-sm-x-scroll {
+        overflow-x: scroll !important;
+    }
+    .overflow-sm-y-scroll {
+        overflow-y: scroll !important;
+    }
+
+    .overflow-sm-scroll {
+        overflow: hidden !important;
+    }
+
+    .overflow-sm-x-auto {
+        overflow-x: auto !important;
+    }
+    .overflow-sm-y-auto {
+        overflow-y: auto !important;
+    }
+
+    .overflow-sm-x-visible {
+        overflow-x: visible !important;
+    }
+    .overflow-sm-y-visible {
+        overflow-y: visible !important;
+    }
+}
+
+/* Mediano (md) */
+@media only screen and (max-width: 991.98px) {
+    .overflow-md-x-hidden {
+        overflow-x: hidden !important;
+    }
+    .overflow-md-y-hidden {
+        overflow-y: hidden !important;
+    }
+
+    .overflow-md-x-scroll {
+        overflow-x: scroll !important;
+    }
+    .overflow-md-y-scroll {
+        overflow-y: scroll !important;
+    }
+
+    .overflow-md-x-auto {
+        overflow-x: auto !important;
+    }
+    .overflow-md-y-auto {
+        overflow-y: auto !important;
+    }
+
+    .overflow-md-x-visible {
+        overflow-x: visible !important;
+    }
+    .overflow-md-y-visible {
+        overflow-y: visible !important;
+    }
+}
+
+/* Grande (lg) */
+@media only screen and (max-width: 1199.98px) {
+    .overflow-lg-x-hidden {
+        overflow-x: hidden !important;
+    }
+    .overflow-lg-y-hidden {
+        overflow-y: hidden !important;
+    }
+
+    .overflow-lg-x-scroll {
+        overflow-x: scroll !important;
+    }
+    .overflow-lg-y-scroll {
+        overflow-y: scroll !important;
+    }
+
+    .overflow-lg-x-auto {
+        overflow-x: auto !important;
+    }
+    .overflow-lg-y-auto {
+        overflow-y: auto !important;
+    }
+
+    .overflow-lg-x-visible {
+        overflow-x: visible !important;
+    }
+    .overflow-lg-y-visible {
+        overflow-y: visible !important;
+    }
+}
+
+/* Extra grande (xl) */
+@media only screen and (min-width: 1200px) {
+    .overflow-xl-x-hidden {
+        overflow-x: hidden !important;
+    }
+    .overflow-xl-y-hidden {
+        overflow-y: hidden !important;
+    }
+
+    .overflow-xl-x-scroll {
+        overflow-x: scroll !important;
+    }
+    .overflow-xl-y-scroll {
+        overflow-y: scroll !important;
+    }
+
+    .overflow-xl-x-auto {
+        overflow-x: auto !important;
+    }
+    .overflow-xl-y-auto {
+        overflow-y: auto !important;
+    }
+
+    .overflow-xl-x-visible {
+        overflow-x: visible !important;
+    }
+    .overflow-xl-y-visible {
+        overflow-y: visible !important;
+    }
+}

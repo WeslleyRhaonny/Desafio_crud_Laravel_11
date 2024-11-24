@@ -1,0 +1,25 @@
+
+
+.preloader {
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20pt;
+}
+
+.preloader-body {
+    width: 25pt;
+    height: 25pt;
+}
+
+
+.preloader > img {
+    max-width: 175pt;
+
+}

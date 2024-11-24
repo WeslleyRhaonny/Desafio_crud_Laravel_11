@@ -1,0 +1,19 @@
+{
+	"pages": [
+		{
+			"name": "Dashboard Analytics",
+			"icon": "ti-smart-home",
+			"url": "index.html"
+		},
+		{
+			"name": "Dashboard CRM",
+			"icon": "ti-smart-home",
+			"url": "dashboards-crm.html"
+		},
+		{
+			"name": "Dashboard eCommerce",
+			"icon": "ti-smart-home",
+			"url": "dashboards-ecommerce.html"
+		}
+	]
+}

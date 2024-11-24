@@ -1,0 +1,14 @@
+
+.card-mark-top {
+    min-height: 9pt;
+    height: 5%;
+    width: 100%;
+    border-radius: var(--bs-card-border-radius) var(--bs-card-border-radius) 0 0;
+}
+
+.card-mark-down {
+    min-height: 9pt;
+    height: 5%;
+    width: 100%;
+    border-radius: 0 0 var(--bs-card-border-radius) var(--bs-card-border-radius);
+}
