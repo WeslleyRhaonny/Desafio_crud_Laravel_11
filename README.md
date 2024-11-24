@@ -25,3 +25,9 @@ php artisan migrate:fresh --seed
 
 ### Com isso, seu projeto vai estar rodando e você pode acesá-lo na rota: 
 http://localhost:8000/
+
+### Para logar no sistema, o usuário criado na seed é:
+weslley@gmail.com
+12345678
+
+mas você pode acessar o usuário seeder e criar da forma que desejar.
