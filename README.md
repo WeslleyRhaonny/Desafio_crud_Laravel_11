@@ -18,7 +18,7 @@ php artisan key:generate
 composer update
 
 ### Crie o banco de dados no seu phpmyadmin:
-Por padrão do projeto você pode acessar o phpmyadmin no: http://localhost:8081/ mas você pode alterar isso no seu .env
+Por padrão do projeto você pode acessar o phpmyadmin no: http://localhost:8081/ mas você pode alterar isso no seu .env e no docker-compose.yml
 
 ### Execute os migrations das tabelas do banco de dados e execute a seed de usuário e dos status das transações:
 php artisan migrate:fresh --seed
